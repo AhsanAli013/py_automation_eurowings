@@ -3,11 +3,13 @@ This repository contains automated tests built using Playwright and TypeScript.
 The project includes both UI automation and API testing such as automating the Eurowings flight-status API.
 
 🚀 Features
+
 ✔ Automated API testing using Playwright's request fixture
 ✔ UI testing support (Chromium, Firefox, WebKit)
 ✔ TypeScript support
 ✔ Clean project structure
 ✔ Easy to run and extend
+
 📂 Project Structure
 
 QA/
@@ -18,6 +20,7 @@ QA/
 ├── tsconfig.json
 └── tests/                         # Additional test suites
 
+
 🛠️ Installation
 Ensure Node.js (v16+) is installed.
 
@@ -25,6 +28,7 @@ npm install
 Install Playwright browsers:
 
 npx playwright install
+
 ▶️ Running Tests
 Run all tests:
 npx playwright test
@@ -34,11 +38,13 @@ Run tests with UI:
 npx playwright test --ui
 Show HTML report:
 npx playwright show-report
+
 🧪 Example: Flight Status API Test
 The project includes a demo API test that:
 
 Sends a POST request
 Parses JSON response
+
 Verifies flight details (e.g., departure TLC, destination TLC, status label)
 const response = await request.post(
   'https://www.eurowings.com/flightstatus.search.flightNumber.nocache.html',
