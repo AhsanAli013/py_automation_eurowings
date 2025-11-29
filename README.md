@@ -1,5 +1,6 @@
 Playwright Automation (TypeScript)
 This repository contains automated tests built using Playwright and TypeScript.
+
 The project includes both UI automation and API testing such as automating the Eurowings flight-status API.
 
 🚀 Features
