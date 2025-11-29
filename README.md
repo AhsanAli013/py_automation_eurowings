@@ -15,10 +15,15 @@ The project includes both UI automation and API testing such as automating the E
 QA/
 
 ├── playwright.config.ts
+
 ├── flight-status-api.spec.ts      # Example API automation test
+
 ├── flight-status-tests.ts         # UI or other test files
+
 ├── package.json
+
 ├── tsconfig.json
+
 └── tests/                         # Additional test suites
 
 
