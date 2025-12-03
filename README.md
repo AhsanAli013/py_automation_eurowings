@@ -6,10 +6,15 @@ The project includes both UI automation and API testing such as automating the E
 🚀 Features
 
 ✔ Automated API testing using Playwright's request fixture
+
 ✔ UI testing support (Chromium, Firefox, WebKit)
+
 ✔ TypeScript support
+
 ✔ Clean project structure
+
 ✔ Easy to run and extend
+
 
 📂 Project Structure
 
@@ -46,6 +51,7 @@ npx playwright test --ui
 Show HTML report:
 npx playwright show-report
 
+
 🧪 Example: Flight Status API Test
 The project includes a demo API test that:
 
@@ -64,6 +70,8 @@ const response = await request.post(
     }
   }
 );
+
+
 📦 Scripts (package.json)
 Useful NPM scripts included:
 
